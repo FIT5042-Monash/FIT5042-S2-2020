@@ -23,6 +23,3 @@ insert into GROUPS (username, groupname) values(
 	'admin',
 	'admin'
 );
-
-select * from USERS;
-select * from GROUPS;
