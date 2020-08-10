@@ -8,7 +8,6 @@ import fit5042.tutex.entities.Property;
 import fit5042.tutex.mbeans.PropertyManagedBean;
 import javax.inject.Named;
 import javax.el.ELContext;
-import javax.faces.annotation.FacesConfig;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.context.FacesContext;
 
@@ -19,7 +18,6 @@ import javax.faces.context.FacesContext;
  * @author Guan
  */
 
-@FacesConfig
 @Named("propertyApplication")
 @ApplicationScoped
 
