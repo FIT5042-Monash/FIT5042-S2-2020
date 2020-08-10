@@ -9,7 +9,6 @@ import fit5042.tutex.mbeans.PropertyManagedBean;
 
 import javax.enterprise.context.Dependent;
 import javax.enterprise.context.RequestScoped;
-import javax.faces.annotation.FacesConfig;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.context.FacesContext;
 
@@ -18,7 +17,6 @@ import javax.faces.context.FacesContext;
  * @author Messom
  * @author Guan
  */
-@FacesConfig
 @Named("propertyController")
 @RequestScoped
 public class PropertyController {
